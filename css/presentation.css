@@ -1,0 +1,24 @@
+html {bakgound-color: blue;}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#meny {
+	float: left;
+}
+
+#header {
+	margin-left: 160px;
+}
+
+#content {
+	margin-left: 160px;
+}
+#container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}

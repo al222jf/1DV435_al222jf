@@ -3,8 +3,10 @@
 	<head>
     	<meta charset="utf-8" />
 		<title>Kontakt</title>
+        <link rel="stylesheet" href="../css/style.css"/>
     </head>
     <body>
+        <div id="container">
     	<div id="meny">
                     <ul>
                        	<li><a href="../index.html">Start</a></li>
@@ -14,25 +16,26 @@
                     </ul>
 		</div>
     	<h1>Kontakt</h1>
-     	<div id="text">
-        	<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            	<fieldset>
-                	<legend>Fråga</legend>
-                    Ärendetyp
-                    	<select name="errand">
-                        	<option value="Fråga">Fråga</option>
-                            <option value="Klagomål">Klagomål</option>
-						</select>                    
-                        <br>Rubrik: <input type="text" size="30">
-                        <br>Fråga: <textarea rows="2" cols="30" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Skriv här!</textarea>
-                </fieldset>
-                <fieldset>
-                	<legend>Information om dig</legend>
-                    Kontakta mig via mail <input type="checkbox" name="mail" value="kontakt via mail"><br>
-                    Kontakta mig via telefon <input type="checkbox" name="telefon" value="kontakt via telefon">
-                </fieldset>
-              	<button type="submit">Skicka frågan</button>
-            </form>
-            </div>
+        	<div id="form">
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                    <fieldset>
+                        <legend>Fråga</legend>
+                        Ärendetyp
+                            <select name="errand">
+                                <option value="Fråga">Fråga</option>
+                                <option value="Klagomål">Klagomål</option>
+                            </select>                    
+                            <br>Rubrik: <input type="text" size="30">
+                            <br>Fråga: <textarea rows="2" cols="30" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Skriv här!</textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Information om dig</legend>
+                        Kontakta mig via mail <input type="checkbox" name="mail" value="kontakt via mail"><br>
+                        Kontakta mig via telefon <input type="checkbox" name="telefon" value="kontakt via telefon">
+                    </fieldset>
+                    <button type="submit">Skicka frågan</button>
+                </form>
+			</div>
+        </div>
     </body>
 </html>

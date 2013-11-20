@@ -3,141 +3,145 @@
 	<head>
 		<meta charset="utf-8" />
         <title> Laborationer </title>
+        <link rel="stylesheet" href="../css/style.css"/>
     </head>
     <body>
-    	 <div id="meny">
-                    <ul>
-                       	<li><a href="../index.html">Start</a></li>
-                        <li><a href="laborationer.html">Laborationer</a></li>
-                        <li><a href="presentation.html">Presentation</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
+        <div id="container">
+        	 <div id="meny">
+                        <ul>
+                           	<li><a href="../index.html">Start</a></li>
+                            <li><a href="laborationer.html">Laborationer</a></li>
+                            <li><a href="presentation.html">Presentation</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+    		</div>
+        	<div id="header">
+            	<h1> Mina laborationer </h1>
+    		</div>
+            <div id="content">
+            	<div id="text">
+                    <p>Här kommer jag visa alla dom laborationerna som jag har gjort.</p>
+    			</div>
+               	<div id="h2">
+                	<h2> Webbteknisk introduktion </h2>
+                </div>
+                <div id="lab">
+                	<ul>
+                    	<li><a href="#lab1">Laboration 1</a></li>
+                        <li><a href="#lab2">Laboration 2</a></li>
                     </ul>
-		</div>
-    	<div id="header">
-        	<h1> Mina laborationer </h1>
-		</div>
-        <div id="content">
-        	<div id="text">
-                <p>Här kommer jag visa alla dom laborationerna som jag har gjort.</p>
-			</div>
-           	<div id="h2">
-            	<h2> Webbteknisk introduktion </h2>
-            </div>
-            <div id="lab">
-            	<ul>
-                	<li><a href="#lab1">Laboration 1</a></li>
-                    <li><a href="#lab2">Laboration 2</a></li>
-                </ul>
-            </div>
-            <div id="tabell">
-            	<table border="1">
-                	<thead>
-                        <tr>
-                            <th>Laboration</th>
-                            <th>Uppgift</th>
-                            <th>Status</th>
-                            <th>Redovisad</th>
-                        </tr>
-                    </thead>
-					<tfoot>
-                    	<tr>
-                        	<td colspan="4">
-                    			Laborationsresultat gällande Adam Lundberg
-                        	</td>
-                        </tr>
-                    </tfoot>
-                    <tbody>
-                        <tr>
-                            <td rowspan="3">1</td>
-                            <td>1</td>
-                            <td>Färdig?</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Färdig?</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Färdig?</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="6">2</td>
-                            <td>1</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Ej påbörjad</td>
-                            <td>2013-??-??</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div id="h3Lab1">
-            	<h3 id="lab1"> Laboration 1</h3>
-            </div>
-            <div id="labb1">
-            	<p>Uppgifter:</p>
-                	<ol>
-                    	<li>www-katalog. check</li>
-                        <li> Ett första dokument </li>
-                    </ol>
-            </div>
-            <div id="h3Lab2">
-            	<h3 id="lab2"> Laboration 2 </h3>
-            </div>
-            <div id="labb2">
-            	<p>Uppgifter:</p>
-                	<ol>
-                    	<li> Absoluta och relativa sökvägar
-                        	<dl>
-                            	<dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
-                                	<dd>http://www.server.se/html/pages/bottom.html</dd>
-								<dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                                	<dd>pages/top.html</dd>
-                                <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                                	<dd>../../index.html</dd>
-                                <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                                	<dd>http://www.server.se/index.html</dd>
-                                <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                                	<dd>bottom.html</dd>
-                                <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                                	<dd>html/pages/top.html</dd>
-                        	</dl>
-                        </li>
-                        <li>Länkar och listor</li>
-                        <li>Bilder
-                        	<ul>
-                            	<li><a href="presentation.html#me">Här är en bild på mig</a></li>
-                                <li><a href="../pics/logo.png">Logotyp</a>
-                        	</ul>
-                        </li>
-                        <li>Video</li>
-                    </ol>
+                </div>
+                <div id="tabell">
+                	<table border="1">
+                    	<thead>
+                            <tr>
+                                <th>Laboration</th>
+                                <th>Uppgift</th>
+                                <th>Status</th>
+                                <th>Redovisad</th>
+                            </tr>
+                        </thead>
+    					<tfoot>
+                        	<tr>
+                            	<td colspan="4">
+                        			Laborationsresultat gällande Adam Lundberg
+                            	</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">1</td>
+                                <td>1</td>
+                                <td>Färdig?</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Färdig?</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Färdig?</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">2</td>
+                                <td>1</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Ej påbörjad</td>
+                                <td>2013-??-??</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="h3Lab1">
+                	<h3 id="lab1"> Laboration 1</h3>
+                </div>
+                <div id="labb1">
+                	<p>Uppgifter:</p>
+                    	<ol>
+                        	<li>www-katalog. check</li>
+                            <li> Ett första dokument </li>
+                        </ol>
+                </div>
+                <div id="h3Lab2">
+                	<h3 id="lab2"> Laboration 2 </h3>
+                </div>
+                <div id="labb2">
+                	<p>Uppgifter:</p>
+                    	<ol>
+                        	<li> Absoluta och relativa sökvägar
+                            	<dl>
+                                	<dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
+                                    	<dd>http://www.server.se/html/pages/bottom.html</dd>
+    								<dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                                    	<dd>pages/top.html</dd>
+                                    <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                                    	<dd>../../index.html</dd>
+                                    <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                                    	<dd>http://www.server.se/index.html</dd>
+                                    <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                                    	<dd>bottom.html</dd>
+                                    <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                                    	<dd>html/pages/top.html</dd>
+                            	</dl>
+                            </li>
+                            <li>Länkar och listor</li>
+                            <li>Bilder
+                            	<ul>
+                                	<li><a href="presentation.html#me">Här är en bild på mig</a></li>
+                                    <li><a href="../pics/logo.png">Logotyp</a>
+                            	</ul>
+                            </li>
+                            <li>Video</li>
+                        </ol>
+
+                </div>
             </div>
         </div>
     </body>

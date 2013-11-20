@@ -1,0 +1,82 @@
+html {
+	
+}
+
+/* Logotyp*/
+IMG.logo {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Container */
+#container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+/* Meny */
+
+#meny {
+	float: left;
+	margin-top: 2cm;
+	}
+	
+/* Titel*/
+#header {
+	width: 960px;
+	margin-left: 160px;
+	
+
+/* inlägg div-block */	
+}
+#parts {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+/* Inlägg */
+.post {
+	box-shadow: 10px 10px 5px #B6B6B4;
+	border: 2px #808080;
+	border-radius: 15px;
+	background-color: white;
+	
+}
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#form {
+	margin-left: 160px;
+}
+
+h1 {
+	text-align:center;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+}
