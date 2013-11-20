@@ -1,6 +1,7 @@
 html {bakgound-color: blue;}
 
 body {
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -17,8 +18,17 @@ body {
 	margin-left: 160px;
 }
 #container {
-	width: 50%;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
+}
+
+h1 {
+	text-align: left 160px;
+	
+}
+
+#form {
+	margin-left: 160px;
 }
