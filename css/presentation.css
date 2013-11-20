@@ -1,9 +1,12 @@
-html {bakgound-color: blue;}
+html {
+	background-image:url('http://onesolarroof.com/wp-content/uploads/2012/01/Blue-background-white-lines-texture-background-451..jpg');
+}
 
 body {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: 63ADD0;
 }
 
 #meny {
@@ -12,22 +15,28 @@ body {
 }
 
 #header {
-	margin-left: 160px;
+	width: 100%;
 }
 
 #content {
-	margin-left: 160px;
-	width: 75%;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #container {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
+	border-radius: 15px;
+	background-image:url('http://imgs.mi9.com/uploads/abstract/4147/abstract-blue-backgrounds-37_1920x1200_71474.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
 }
 
 h1 {
-	text-align: left 160px;
+	text-align: center;
 	
 }
 
@@ -39,4 +48,14 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 
+}
+#footer {
+	text-align: center;
+	font-weight: bold;
+}
+
+IMG.logga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
