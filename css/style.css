@@ -28,8 +28,7 @@ html {
 }
 
 #meny a:hover {
-	background-color: #FFFFFF;
-	color: #0000FF;
+	background-color: #3399FF;
 }
 
 #meny .active a{
