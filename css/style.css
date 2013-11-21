@@ -1,32 +1,43 @@
 html {
-	background-image:url('http://onesolarroof.com/wp-content/uploads/2012/01/Blue-background-white-lines-texture-background-451..jpg');
+	background-image:url('pics/bakgrund.jpg');
 }
 
+#meny {
+	float: left;
+	list-style: none;
+	border:: 1px solid black;
+	border-bottom: none;
+	width: 160;		
+}
+
+#meny li {
+	border-bottom: 1px solid black;
+}
+
+#meny a {
+	text-decoration: none;
+	color: #00FF00;
+}
 body {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* Container */
 #container {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	background-image:url('http://imgs.mi9.com/uploads/abstract/4147/abstract-blue-backgrounds-37_1920x1200_71474.jpg');
+	background-image:url('pics/ljudgrund.jpg');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center; 
+	border: 2px solid black;
 	
 }
 
-/* Meny */
 
-#meny {
-	float: left;
-	}
-	
 /* Titel*/
 #header {
 	width: 100%;
@@ -39,6 +50,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
+	background-color: rgba(255,255,255, 0);
 }
 
 /* Inlägg */
@@ -47,7 +59,7 @@ body {
 	border: 2px #808080;
 	border-radius: 15px;
 	background-color: white;
-	
+	background-color: rgba(255,255,255, 0.6);	
 }
 
 #form {
@@ -61,6 +73,7 @@ h1 {
 #content {
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #footer {
@@ -72,4 +85,7 @@ IMG.logga {
     display: block;
     margin-left: auto;
     margin-right: auto; 
+	border: 4px solid white;
 }
+
+

@@ -26,23 +26,25 @@
                     <fieldset>
                         <legend>Fråga</legend>
                         Ärendetyp
-                            <select name="errand">
+                            <select name="Typ av fråga">
                                 <option value="Fråga">Fråga</option>
                                 <option value="Klagomål">Klagomål</option>
-                            </select>                    
-                            <br>Rubrik: <input type="text" size="30">
-                            <br>Fråga: <textarea rows="2" cols="30" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Skriv här!</textarea>
+                            </select>
+                            	<br><label for="rubrik">Rubrik:</label>                    
+                            		<input type="text" id="rubrik" name="Rubrik" size="30"/>
+                            	<br><label for="fraga">Fråga:</label>
+                            		<textarea name="Fråga"textarea rows="2"cols="30"placeholder="Skriv din fråga här!"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
-                        Kontakta mig via mail <input type="checkbox" name="mail" value="kontakt via mail"><br>
-                        Kontakta mig via telefon <input type="checkbox" name="telefon" value="kontakt via telefon">
+                        Kontakta mig via mail <input type="checkbox" name="Mail" value="kontakt via mail"><br>
+                        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="kontakt via telefon">
                     </fieldset>
                     <button type="submit">Skicka frågan</button>
                 </form>
 			</div>
             <div id="footer">
-            	<p> all rights reserved Adam Lundberg <p>
+            	<p> All rights reserved Adam Lundberg <p>
             </div>
         </div>
     </body>
