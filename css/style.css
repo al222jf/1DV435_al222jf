@@ -109,4 +109,6 @@ IMG.logga {
 	border: 4px solid white;
 }
 
-
+.time {
+	font-style:italic
+}
