@@ -1,3 +1,4 @@
+
 html {
 	background-image:url('http://onesolarroof.com/wp-content/uploads/2012/01/Blue-background-white-lines-texture-background-451..jpg');
 }
@@ -9,13 +10,41 @@ body {
 	background-color: 63ADD0
 }
 
-#meny {
+#menycontainer {
+	width: 160px;
 	float: left;
 }
 
-#nav {
+#meny {
+	float: left;	
 	list-style: none;
 }
+
+
+
+#meny a {
+	text-decoration: none;
+	background-color:#0000FF;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 10px; 
+	width: 100px;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+
+#meny a:hover {
+	background-color: #FFFFFF;
+	color: #0000FF;
+}
+
+#meny .active a{
+	border: 2px solid black;
+	background-color: #3399FF;
+}
+
 #header {
 	width: 100%;
 }
@@ -27,6 +56,7 @@ body {
 	background-color: rgba(255,255,255, 0.7);
 	border-radius: 15px;
 }
+
 #container {
 	width: 960px;
 	margin-left: auto;
@@ -46,12 +76,16 @@ h1 {
 }
 
 #form {
-	margin-left: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
 }
 
 #footer {
+	clear: both;
 	text-align: center;
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 IMG.logga {
@@ -65,6 +99,3 @@ IMG.logga {
 	border: 1px solid black;
 }
 
-#part {
-
-}

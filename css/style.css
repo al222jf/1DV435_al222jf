@@ -1,23 +1,42 @@
+
 html {
 	background-image:url('pics/bakgrund.jpg');
 }
 
-#meny {
+#menycontainer {
+	width: 160px;
 	float: left;
+	
+}
+#meny {
 	list-style: none;
-	border:: 1px solid black;
-	border-bottom: none;
-	width: 160;		
+	width: 160px;
 }
 
-#meny li {
-	border-bottom: 1px solid black;
-}
 
 #meny a {
 	text-decoration: none;
-	color: #00FF00;
+	background-color:#0000FF;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 10px; 
+	width: 100px;
+	margin: 5px 0;
+	border-radius: 5px;
 }
+
+#meny a:hover {
+	background-color: #FFFFFF;
+	color: #0000FF;
+}
+
+#meny .active a{
+	border: 2px solid black;
+	background-color: #3399FF;
+	
+}	
 body {
 	width: 960px;
 	margin-left: auto;
@@ -59,7 +78,9 @@ body {
 	border: 2px #808080;
 	border-radius: 15px;
 	background-color: white;
-	background-color: rgba(255,255,255, 0.6);	
+	background-color: rgba(255,255,255, 0.6);
+	padding: 5px;	
+	margin-top: 20px;
 }
 
 #form {
@@ -72,13 +93,14 @@ h1 {
 
 #content {
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 #footer {
+	clear: both;
 	text-align: center;
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 IMG.logga {

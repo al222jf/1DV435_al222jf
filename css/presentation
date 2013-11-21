@@ -1,6 +1,0 @@
-html {bakgound-color: blue;}
-
-body {
-	margin-left: auto;
-	margin-right: auto;
-}
