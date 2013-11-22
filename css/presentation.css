@@ -1,6 +1,7 @@
 
 html {
-	background-image:url('http://onesolarroof.com/wp-content/uploads/2012/01/Blue-background-white-lines-texture-background-451..jpg');
+	background-image:url('pics/bakgrund.jpg');
+	background-attachment:fixed;
 }
 
 body {
@@ -62,7 +63,7 @@ body {
 	margin-right: auto;
 	background-color: white;
 	border-radius: 15px;
-	background-image:url('http://imgs.mi9.com/uploads/abstract/4147/abstract-blue-backgrounds-37_1920x1200_71474.jpg');
+	background-image:url('pics/ljudgrund.jpg');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center; 

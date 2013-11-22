@@ -1,6 +1,7 @@
 
 html {
 	background-image:url('pics/bakgrund.jpg');
+	background-attachment:fixed;
 }
 
 #menycontainer {
