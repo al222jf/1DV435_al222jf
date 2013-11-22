@@ -117,3 +117,7 @@ IMG.logga {
 .right {
 	float: right;
 }
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
