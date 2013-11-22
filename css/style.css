@@ -112,3 +112,7 @@ IMG.logga {
 .time {
 	font-style:italic
 }
+
+.right {
+	float: right;
+}
