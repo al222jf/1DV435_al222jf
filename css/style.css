@@ -26,7 +26,20 @@ html {
 	width: 100px;
 	margin: 5px 0;
 	border-radius: 5px;
+	background-image: url('pics/sprite.png');
+	background-repeat:no-repeat;
 }
+
+#home {
+	display: block;
+	background-position: 90px 0px;
+}
+
+#home:hover {
+	background-position: 0 0;
+}
+
+
 
 #meny a:hover {
 	background-color: #3399FF;
