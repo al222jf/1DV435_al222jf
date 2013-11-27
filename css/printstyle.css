@@ -1,5 +1,5 @@
 img {
-	display: none;
+	border: none;
 }
 
 #logo {
@@ -19,9 +19,9 @@ head {
 	display: none;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:hover, a:visited, a:link, a:active {
     text-decoration: none;
+	color: inherit;
 }
 
 .post {
