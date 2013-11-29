@@ -73,6 +73,8 @@ html {
 #meny .active a{
 	border: 2px solid black;
 	background-color: #3399FF;
+	margin-left: 4px;
+	box-shadow: 4px 4px 5px rgba(0,0,0, 0.5);
 	
 }	
 body {
@@ -137,6 +139,8 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	text-decoration: underline;
+	font-size: 12px;
+	font-style: italic;
 }
 
 IMG.logga {
