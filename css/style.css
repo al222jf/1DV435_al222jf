@@ -1,17 +1,19 @@
 
 html {
-	background-image:url('pics/bakgrund.jpg');
+	background-color: #3697DC;
+	background-image:url('pics/brushed_alu_dark.png');
 	background-attachment:fixed;
 }
 
 #menycontainer {
 	width: 160px;
 	float: left;
+	margin-left: -40px;
 	
 }
 #meny {
 	list-style: none;
-	width: 160px;
+
 }
 
 
@@ -23,24 +25,47 @@ html {
 	font-weight: bold;
 	display: block;
 	padding: 10px; 
-	width: 100px;
+	width: 124px;
 	margin: 5px 0;
 	border-radius: 5px;
 	background-image: url('pics/sprite.png');
 	background-repeat:no-repeat;
+
+
+
 }
 
 #home {
-	display: block;
-	background-position: 90px 0px;
+	background-position: 120px -40px;
 }
 
 #home:hover {
-	background-position: 0 0;
+	background-position: 120px 8px;
 }
 
+#laboration {
+	background-position: 120px -135px;
+}
 
+#laboration:hover {
+	background-position: 120px -87px;
+}
 
+#presentationen {
+	background-position: 120px -230px;
+}
+
+#presentationen:hover {
+	background-position: 120px -182px;
+}
+
+#contact {
+	background-position: 120px -330px;
+}
+
+#contact:hover {
+	background-position: 120px -282px;
+}
 #meny a:hover {
 	background-color: #3399FF;
 }
@@ -61,10 +86,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	background-image:url('pics/ljudgrund.jpg');
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:center; 
+	background-image:url('pics/grunge_wall.png');
+	background-color: white;
 	border: 2px solid black;
 	
 }
@@ -87,11 +110,11 @@ body {
 
 /* Inlägg */
 .post {
-	box-shadow: 10px 10px 5px #242424;
-	border: 2px #808080;
+	box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+	border: 20px black;
 	border-radius: 15px;
 	background-color: white;
-	background-color: rgba(255,255,255, 0.6);
+	background-color: rgba(255,255,255, 0.5);
 	padding: 5px;	
 	margin-top: 20px;
 }
