@@ -5,6 +5,10 @@ html {
 	background-attachment:fixed;
 }
 
+#popart:hover {
+	filter: grayscale(0%)
+}
+
 #menycontainer {
 	width: 160px;
 	float: left;
@@ -13,7 +17,6 @@ html {
 }
 #meny {
 	list-style: none;
-
 }
 
 
@@ -30,8 +33,6 @@ html {
 	border-radius: 5px;
 	background-image: url('pics/sprite.png');
 	background-repeat:no-repeat;
-
-
 
 }
 
@@ -69,6 +70,7 @@ html {
 }
 #meny a:hover {
 	background-color: #3399FF;
+	 transition: all .5s linear 0;
 }
 
 #meny .active a{
@@ -76,8 +78,13 @@ html {
 	background-color: #3399FF;
 	margin-left: 4px;
 	box-shadow: 4px 4px 5px rgba(0,0,0, 0.5);
-	
-}	
+	transition: none;	
+}
+
+#home .active a {
+	background-position: 120px 8px;
+}
+		
 body {
 	width: 960px;
 	margin-left: auto;
@@ -99,7 +106,7 @@ body {
 /* Titel*/
 #header {
 	width: 100%;
-	
+	text-shadow: -1px 2px 2px #999;
 }
 /* inlägg div-block */	
 
@@ -145,11 +152,15 @@ h1 {
 	font-style: italic;
 }
 
+#logo {
+	width: 717px;
+	margin: auto;
+}
 IMG.logga {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-	border: 4px solid white;
+	border: 4px solid rgba(255,255,255, 0.3);
 }
 
 .time {
