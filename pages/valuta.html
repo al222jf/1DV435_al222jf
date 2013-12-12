@@ -2,16 +2,23 @@
 	<html lang="sv">
 		<head>
 			<meta charset="utf-8"/>
-			<title> Adams grymma blogg </title>
+			<title> Adams grymma valutaomvandlare! </title>
+			<link rel="stylesheet" href="../css/presentation.css"/>
 		</head>
 		<body>
-        	<div id="omvandlare">
-                <form action="javascript:calc(document.getElementById('text').value)" />
-                    <input type="text" id="text"  />
-                    <input type="submit" value="Omvandla" />
-                </form>
-                <div id="svar">
-                </div>
+			<div id="content2">
+				<div id="meny2">
+					<a href="laborationer.html"> Tillbaka till laborationer</a>
+				</div>
+	        	<div id="omvandlare">
+	        		<h1> Valutaomvandlaren </h1>
+	                <form action="javascript:calc(document.getElementById('valuta').value)" />
+	                    <input type="text" id="valuta" placeholder="Svenska kronor"  />
+	                    <input type="submit" value="Omvandla" />
+	                </form>
+	                <div id="svar">
+	                </div>
+				</div>
 			</div>
 		<script type="text/javascript" src="../js/valuta.js"></script>
 		</body>
