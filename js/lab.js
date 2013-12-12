@@ -1,6 +1,6 @@
 // JavaScript Document
-  function unhide(divID) {
-    var item = document.getElementById(divID);
+  function hide_tabell(tabell) {
+    var item = document.getElementById(tabell);
     if (item) {
       item.className=(item.className=='hide')?'show':'hide';
     }
