@@ -19,13 +19,11 @@ function calc(valuta) {
 				svar.innerHTML = "<p>  Du får bara använda siffror! </p>"+ svar.innerHTML;
 				
 
-
 				} else if (valuta <= 0) { 
 					svar.innerHTML = "<p>  Du måste skriva in några siffor! </p>"+ svar.innerHTML;	
 
 
 				} else {
-
 
 					var summa = valuta + " svenska kronor blir " + resultateuro + " euro och " + resultatdollar + " dollar";
 					svar.innerHTML = " <p>" + summa + "</p>"+ svar.innerHTML;
