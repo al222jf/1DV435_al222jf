@@ -15,7 +15,7 @@ var displayPic;
 	function display(displayPic) {
 		
 		displayPic = document.getElementById("lol").src = pic[counter];
-		
+	
 	};
 	
 
