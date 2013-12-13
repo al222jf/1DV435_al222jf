@@ -127,8 +127,13 @@ body {
 	padding: 5px;	
 	margin-top: 20px;
 	font-size: 12px;
+	overflow: auto;
 }
 
+#pictures img {
+	width: 100%;
+	height: auto;
+}
 #form {
 	margin-left: 160px;
 }
@@ -155,6 +160,7 @@ h1 {
 	width: 717px;
 	margin: auto;
 }
+
 IMG.logga {
     display: block;
     margin-left: auto;
@@ -163,7 +169,7 @@ IMG.logga {
 }
 
 .time {
-	font-style:italic
+	font-style:italic;
 }
 
 .right {
