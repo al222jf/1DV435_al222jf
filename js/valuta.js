@@ -1,4 +1,4 @@
-// JavaScript Document: Valuta omvandlaren!
+// JavaScript Document// JavaScript Document: Valuta omvandlaren!
 
 	var svar = document.getElementById('svar');
 
@@ -16,14 +16,14 @@ function calc(valuta) {
 			}
 
 			if (isNaN(valuta)) {
-				svar.innerHTML = "<p>  Du fÂr bara anv‰nda siffror! </p>"+ svar.innerHTML;
+				svar.innerHTML = "<p>  Du f√•r bara anv√§nda siffror! </p>"+ svar.innerHTML;
 				
 				} else if (valuta <= 0) { 
-					svar.innerHTML = "<p>  Du mÂste skriva in nÂgra siffor! </p>"+ svar.innerHTML;	
+					svar.innerHTML = "<p>  Du m√•ste skriva in n√•gra siffor! </p>"+ svar.innerHTML;	
 
 				} else {
 
-					svar.innerHTML = " <p>" + " svenska kronor blir " + resultateuro + " euro och " + resultatdollar + " dollar" + "</p>"+ svar.innerHTML;
+					svar.innerHTML = " <p>" + valuta + " svenska kronor blir " + resultateuro + " euro och " + resultatdollar + " dollar" + "</p>"+ svar.innerHTML;
 				}
 
 
