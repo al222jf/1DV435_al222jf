@@ -1,8 +1,9 @@
 
 html {
-	background-color: #3697DC;
 	background-image:url('pics/brushed_alu_dark.png');
+	background-color: #3697DC;
 	background-attachment:fixed;
+	overflow-y: scroll;
 }
 
 body {
@@ -10,79 +11,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*
+
 #menycontainer {
-	width: 160px;
-	float: left;
-	margin-left: -40px;
-}
-
-#meny {
-	float: left;	
-	list-style: none;
-}
-
-
-#meny a {
-	text-decoration: none;
-	background-color:#0000FF;
-	color: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	display: block;
-	padding: 10px; 
-	width: 124px;
-	margin: 5px 0;
-	border-radius: 5px;
-	background-image: url('pics/sprite.png');
-	background-repeat: no-repeat;
-
-}
-
-#home {
-	background-position: 120px -40px;
-}
-
-#home:hover {
-	background-position: 120px 8px;
-}
-
-#laboration {
-	background-position: 120px -135px;
-}
-
-#laboration:hover {
-	background-position: 120px -87px;
-}
-
-#presentationen {
-	background-position: 120px -230px;
-}
-
-#presentationen:hover {
-	background-position: 120px -182px;
-}
-
-#contact {
-	background-position: 120px -330px;
-}
-
-#contact:hover {
-	background-position: 120px -282px;
-}
-
-#meny a:hover {
-	transition: all .5s linear 0;
-	background-color: #3399FF;
-}
-*/
-#menycontainer {
-	
 	overflow: auto;
 	background-color: rgba(0,0,0, 0.5);
 	border-radius: 5px 5px 0 0;
-	margin-bottom: -21px;
-	
+	margin-bottom: -21px;	
 }
 
 #meny {
@@ -106,16 +40,12 @@ body {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-
-
 }
-
 
 #meny a:hover {
 	background-color: rgba(92,91,92, 0.5);
-	transition: all .5s linear 0;
+	transition: all .3s linear 0;
 }
-
 
 #meny .active a{
 	/*border: 2px solid black;*/
@@ -124,7 +54,6 @@ body {
 	box-shadow: 4px 4px 5px rgba(0,0,0, 0.5);
 	transition: none;	
 }
-
 
 #header {
 	text-shadow: -1px 2px 2px #999;
@@ -159,6 +88,7 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
+	color: rgba(255,255,255,0.9);
 }
 
 #footer {
@@ -168,7 +98,9 @@ h1 {
 	text-decoration: underline;
 	font-size: 12px;
 	font-style: italic;
+	color: rgba(255,255,255, 0.7);
 }
+
 #logo {
 	width: 717px;
 	margin: auto;
@@ -178,24 +110,21 @@ IMG.logga {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	
 }
 
 p { 
 	font-family:Arial, Helvetica, sans-serif;
 }
 
-dt {
+#labb2 dt {
 	font-weight: bold;
 }
 
-dd {
+#labb2 dd {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 40px;
 }
-
-/* Laborationstabellen */
 
 .hide {
 	display: none;
@@ -221,19 +150,20 @@ dd {
 	color:black;
 	background-color: rgba(0,0,0, 0); 
 }
+
 #bktolab {
-	width: 150px;
+	width: 604px;
+	margin: auto;
+	background-color: rgba(0,0,0, 0.4);
 }
 
 #bktolab a {
+	margin: auto;
 	display: block;
-	background-color: rgba(0,0,0, 0.4);
-	width: 150px;
 	padding: 10px;
 	text-decoration: none;
 	color: rgba(255,255,255, 0.9);
+	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 12px;
-
 }

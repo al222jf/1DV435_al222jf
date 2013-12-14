@@ -16,7 +16,7 @@ function calc(valuta) {
 			}
 
 			if (isNaN(valuta)) {
-				svar.innerHTML = "<p>  Du får bara använda siffror! </p>"+ svar.innerHTML;
+				svar.innerHTML = "<p>  Du kan bara använda siffror! </p>"+ svar.innerHTML;
 				
 				} else if (valuta <= 0) { 
 					svar.innerHTML = "<p>  Du måste skriva in några siffor! </p>"+ svar.innerHTML;	
