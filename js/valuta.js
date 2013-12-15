@@ -21,10 +21,10 @@ function calc(valuta) {
 				} else if (valuta <= 0) { 
 					svar.innerHTML = "<p>  Du måste skriva in några siffor! </p>"+ svar.innerHTML;	
 
-				} else {
+					} else {
 
-					svar.innerHTML = " <p>" + valuta + " svenska kronor blir " + resultateuro + " euro och " + resultatdollar + " dollar" + "</p>"+ svar.innerHTML;
-				}
+						svar.innerHTML = " <p>" + valuta + " svenska kronor blir " + resultateuro + " euro och " + resultatdollar + " dollar" + "</p>"+ svar.innerHTML;
+					}
 
 
 }
